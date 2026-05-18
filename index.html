@@ -3,57 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moja Strona</title>
+  <title>Cezar Market</title>
 
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
-    }
-
-    nav {
-      background: #222;
-      padding: 15px;
+      background-color: #f5f5f5;
       text-align: center;
     }
 
-    nav a {
+    header {
+      background-color: #222;
       color: white;
-      text-decoration: none;
-      margin: 0 20px;
-      font-size: 18px;
-      transition: 0.3s;
+      padding: 30px;
     }
 
-    nav a:hover {
-      color: orange;
-    }
-
-    .content {
-      padding: 40px;
-      text-align: center;
+    main {
+      padding: 50px 20px;
     }
 
     h1 {
-      color: #333;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 20px;
+      color: #555;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: orange;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    .button:hover {
+      background-color: darkorange;
     }
   </style>
 </head>
 
 <body>
 
-  <nav>
-    <a href="#">Oferta</a>
-    <a href="#">Nowości</a>
-    <a href="#">Promocje</a>
-    <a href="#">Kontakt</a>
-  </nav>
+  <header>
+    <h1>Cezar Market</h1>
+    <p>Najlepsze produkty w super cenach</p>
+  </header>
 
-  <div class="content">
-    <h1>Witaj na stronie!</h1>
-    <p>Tu możesz dodać swoją treść.</p>
-  </div>
+  <main>
+    <h2>Witamy!</h2>
+    <p>Sprawdź nasze nowości i promocje.</p>
+
+    <a href="#" class="button">Zobacz ofertę</a>
+  </main>
 
 </body>
 </html>
